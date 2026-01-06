@@ -1,14 +1,39 @@
-node_modules
-dist
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
 .DS_Store
-*.swp
-.git/*
-__pycache__/
-*.pyc
-.venv/*
-*.o
-*.a
-/vendor
-*.egg-info/
-/.env
-.env
+Thumbs.db
+
+# Spring Boot
+spring-boot-starter-parent.log
